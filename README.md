@@ -8,6 +8,8 @@ An English-first Android assistant for your spaces, your work and everyday tasks
 
 Android 11 or later is required. Most recent Android phones should use the `-arm64.apk` attachment; the other APK is universal. Open the downloaded APK and permit installation from that browser/file manager if Android requests it.
 
+The bundled sandbox/computation runtime requires arm64. Other architectures have startup-only validation; a universal APK does not mean every feature is available on every ABI.
+
 This is a Beta direct-APK distribution. Model/service credentials and Android permissions must be configured before corresponding tasks are available. Approval and payment handoff boundaries remain in place.
 
 The first public release uses an independent Apporo release certificate. Internal test-signed Apporo APKs cannot be updated in place by this certificate: preserve anything you need before removing a test installation, then install the public APK. Removing an app deletes its local data. Future public releases will use this same release certificate.
