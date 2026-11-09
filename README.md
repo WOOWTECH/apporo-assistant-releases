@@ -12,7 +12,9 @@ The bundled sandbox/computation runtime requires arm64. Other architectures have
 
 This is a Beta direct-APK distribution. Model/service credentials and Android permissions must be configured before corresponding tasks are available. Approval and payment handoff boundaries remain in place.
 
-The first public release uses an independent Apporo release certificate. Internal test-signed Apporo APKs cannot be updated in place by this certificate: preserve anything you need before removing a test installation, then install the public APK. Removing an app deletes its local data. Future public releases will use this same release certificate.
+Public Apporo releases use the same dedicated Apporo release certificate. Public apporo.3 can be updated to apporo.4 without uninstalling or clearing app data. Internal test-signed Apporo APKs cannot be updated in place by this certificate: preserve anything you need before removing a test installation, then install the public APK. Removing an app deletes its local data. The package remains `com.apporo.assistant`; check each release’s version code and certificate before updating.
+
+Google Play Protect blocked the previous public APK on a POCO Android 15 phone. The current update does not claim to resolve that verdict. If installation is blocked, keep your installed app and data; do not disable protection to force an update.
 
 ## Source and verification
 
