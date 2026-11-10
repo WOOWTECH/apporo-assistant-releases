@@ -4,7 +4,7 @@ const {resolve} = require('node:path');
 const {runInNewContext} = require('node:vm');
 const {test} = require('node:test');
 const assert = require('node:assert/strict');
-const html = readFileSync(resolve(__dirname, '../docs/index.html'), 'utf8');
+const html = readFileSync(resolve(__dirname, '../templates/open-apporo-assistant.html'), 'utf8');
 const script = html.match(/<script>([\s\S]*?)<\/script>/)[1];
 function page(href='https://apporo.example/open?redirect=https://bad.example#payload', ua='Android Chrome') {
   const listeners = {}, timers = new Map(); let id = 0;

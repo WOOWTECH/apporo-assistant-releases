@@ -2,13 +2,15 @@
 
 An English-first Android assistant for your spaces, your work and everyday tasks. Optional Traditional Chinese is included.
 
-[Open the installed app](https://woowtech.github.io/apporo-assistant-releases/) · [Download the latest release](https://github.com/WOOWTECH/apporo-assistant-releases/releases/latest) · [Apporo](https://www.apporo.ai/) · [Application source](https://github.com/WOOWTECH/woowtech_mika_smart_app/tree/main)
+[Download the latest release](https://github.com/WOOWTECH/apporo-assistant-releases/releases/latest) · [Apporo](https://www.apporo.ai/) · [Application source](https://github.com/WOOWTECH/woowtech_mika_smart_app/tree/main)
 
-## Open the installed app
+## Browser opening is temporarily suspended
 
-Use https://woowtech.github.io/apporo-assistant-releases/ on an Android phone, then tap **Open Apporo Assistant**. Apporo .7 or later is required. The page uses a user-initiated Android Intent, with a package-pinned target and a same-page fallback. It does not send tasks or redirect automatically. In LINE or another embedded browser, choose **Open in browser** and tap the button in Chrome.
+On November 10, 2026, Chrome displayed a dangerous-site warning for the newly published opening page. Google's public Safe Browsing report identifies `woowtech.github.io` as unsafe for deceptive content; the report's displayed information was last updated October 29, 2026. This does not identify the triggering page or establish that the Apporo page is a false positive.
 
-The page is hosted by GitHub Pages from `main:/docs`. The app URI is not an HTTPS website and should not be entered as a domain in the browser address bar.
+The public page now contains only a suspension notice. App-opening actions, download links and JavaScript have been removed from the published directory. Do not bypass the browser warning. If Apporo Assistant is already installed, open it from the phone's home screen or app list.
+
+The original opening template is retained in `templates/`, outside the GitHub Pages source directory, for review. It must not be republished until the affected site issues are resolved and the opening flow is verified again. GitHub Pages serves only `main:/docs`.
 
 ## Install
 
