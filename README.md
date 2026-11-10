@@ -2,7 +2,13 @@
 
 An English-first Android assistant for your spaces, your work and everyday tasks. Optional Traditional Chinese is included.
 
-[Download the latest release](https://github.com/WOOWTECH/apporo-assistant-releases/releases/latest) · [Apporo](https://www.apporo.ai/) · [Application source](https://github.com/WOOWTECH/woowtech_mika_smart_app/tree/main)
+[Open the installed app](https://woowtech.github.io/apporo-assistant-releases/) · [Download the latest release](https://github.com/WOOWTECH/apporo-assistant-releases/releases/latest) · [Apporo](https://www.apporo.ai/) · [Application source](https://github.com/WOOWTECH/woowtech_mika_smart_app/tree/main)
+
+## Open the installed app
+
+Use https://woowtech.github.io/apporo-assistant-releases/ on an Android phone, then tap **Open Apporo Assistant**. Apporo .7 or later is required. The page uses a user-initiated Android Intent, with a package-pinned target and a same-page fallback. It does not send tasks or redirect automatically. In LINE or another embedded browser, choose **Open in browser** and tap the button in Chrome.
+
+The page is hosted by GitHub Pages from `main:/docs`. The app URI is not an HTTPS website and should not be entered as a domain in the browser address bar.
 
 ## Install
 
